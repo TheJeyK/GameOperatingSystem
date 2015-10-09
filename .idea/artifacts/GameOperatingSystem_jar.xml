@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GameOperatingSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GameOperatingSystem_jar</output-path>
+    <root id="archive" name="GameOperatingSystem.jar">
+      <element id="module-output" name="GameOperatingSystem" />
+    </root>
+  </artifact>
+</component>
