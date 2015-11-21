@@ -85,8 +85,8 @@ public class GOPGameLoop extends JPanel implements Runnable{
 
             if (System.currentTimeMillis() - lastTimer >= 1000) {
                 lastTimer += 1000;
-                tps = frames;
-                fps = ticks;
+                tps = ticks;
+                fps = frames;
                 frames = 0;
                 ticks = 0;
             }
@@ -107,5 +107,13 @@ public class GOPGameLoop extends JPanel implements Runnable{
 
     public void tick(double deltaTime) {
 
+    }
+
+    public int getFps() {
+        return fps;
+    }
+
+    public int getTps() {
+        return tps;
     }
 }
